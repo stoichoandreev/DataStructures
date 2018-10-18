@@ -13,7 +13,7 @@ public class Tree<T> {
         this.root = root;
     }
 
-    public Tree(@NotNull TreeNode<T> root, TreeNode<T>... children) {
+    public Tree(@NotNull TreeNode<T> root, @NotNull TreeNode<T>... children) {
         this(root);
         for (TreeNode child: children) {
             root.addChild(child);
@@ -22,6 +22,20 @@ public class Tree<T> {
 
     public TreeNode<T> getRoot() {
         return root;
+    }
+
+    private void printDFS(TreeNode<T> root, String spaces) {
+        System.out.println(spaces + root.getValue());
+        TreeNode<T> child;
+
+        for (int i = 0; i < root.getChildrenCount(); i++) {
+            child = root.getChild(i);
+            printDFS(child, spaces + " ");
+        }
+    }
+
+    public void print() {
+        this.printDFS(this.root, "");
     }
 
     public static class TreeNode<T> {
@@ -34,7 +48,7 @@ public class Tree<T> {
             this.value = value;
             this.children = new ArrayList<>();
         }
-        public TreeNode(@NotNull T value, TreeNode<T>... children) {
+        public TreeNode(@NotNull T value, @NotNull TreeNode<T>... children) {
             this(value);
             for (TreeNode child: children) {
                 addChild(child);

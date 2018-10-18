@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63d853fc-55d3-4749-bc8d-68d34e51a1ca" name="Default" comment="" />
+    <list default="true" id="63d853fc-55d3-4749-bc8d-68d34e51a1ca" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/data/structures/Tree.java" afterPath="$PROJECT_DIR$/src/data/structures/Tree.java" />
+      <change beforePath="$PROJECT_DIR$/test/data/structures/TreeTest.java" afterPath="$PROJECT_DIR$/test/data/structures/TreeTest.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,22 +65,24 @@
       <file leaf-file-name="Tree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data/structures/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="502">
+              <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#217#218#0" expanded="true" />
                 <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#1559#1560#0" expanded="true" />
-                <element signature="e#1595#1596#0" expanded="true" />
-                <element signature="e#1645#1646#0" expanded="true" />
-                <element signature="e#1684#1685#0" expanded="true" />
-                <element signature="e#1725#1726#0" expanded="true" />
-                <element signature="e#1771#1772#0" expanded="true" />
-                <element signature="e#1811#1812#0" expanded="true" />
-                <element signature="e#1861#1862#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#1953#1954#0" expanded="true" />
+                <element signature="e#1989#1990#0" expanded="true" />
+                <element signature="e#2039#2040#0" expanded="true" />
+                <element signature="e#2078#2079#0" expanded="true" />
+                <element signature="e#2119#2120#0" expanded="true" />
+                <element signature="e#2165#2166#0" expanded="true" />
+                <element signature="e#2205#2206#0" expanded="true" />
+                <element signature="e#2255#2256#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,8 +91,8 @@
       <file leaf-file-name="TreeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/data/structures/TreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
-              <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="497">
+              <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -268,6 +274,11 @@
             <path>
               <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
@@ -575,12 +586,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyMergeSortTest_test_sort_items - 2018.10.18 at 07h 19m 34s.xml">
-      <configuration name="MyMergeSortTest.test_sort_items" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyMergeSortTest_test_sort_items - 2018.10.18 at 07h 20m 23s.xml">
-      <configuration name="MyMergeSortTest.test_sort_items" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyMergeSortTest_test_sort_items - 2018.10.18 at 07h 20m 42s.xml">
       <configuration name="MyMergeSortTest.test_sort_items" configurationId="JUnit" />
     </history-entry>
@@ -592,6 +597,12 @@
     </history-entry>
     <history-entry file="MyMergeSortTest_test_sort_items - 2018.10.18 at 07h 22m 49s.xml">
       <configuration name="MyMergeSortTest.test_sort_items" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest - 2018.10.18 at 09h 38m 30s.xml">
+      <configuration name="TreeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest - 2018.10.18 at 10h 00m 11s.xml">
+      <configuration name="TreeTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TreeTest_test_tree_creation - 2018.10.18 at 09h 35m 01s.xml">
       <configuration name="TreeTest.test_tree_creation" configurationId="JUnit" />
@@ -1055,30 +1066,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/structures/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="502">
+          <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#217#218#0" expanded="true" />
             <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#1559#1560#0" expanded="true" />
-            <element signature="e#1595#1596#0" expanded="true" />
-            <element signature="e#1645#1646#0" expanded="true" />
-            <element signature="e#1684#1685#0" expanded="true" />
-            <element signature="e#1725#1726#0" expanded="true" />
-            <element signature="e#1771#1772#0" expanded="true" />
-            <element signature="e#1811#1812#0" expanded="true" />
-            <element signature="e#1861#1862#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#1953#1954#0" expanded="true" />
+            <element signature="e#1989#1990#0" expanded="true" />
+            <element signature="e#2039#2040#0" expanded="true" />
+            <element signature="e#2078#2079#0" expanded="true" />
+            <element signature="e#2119#2120#0" expanded="true" />
+            <element signature="e#2165#2166#0" expanded="true" />
+            <element signature="e#2205#2206#0" expanded="true" />
+            <element signature="e#2255#2256#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/data/structures/TreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        <state relative-caret-position="497">
+          <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
