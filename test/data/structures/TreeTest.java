@@ -30,7 +30,8 @@ public class TreeTest {
         assertEquals(tested.getRoot().getChild(1).getChildrenCount(), 0);
         assertEquals(tested.getRoot().getChild(2).getChildrenCount(), 2);
 
-        tested.print();
+        tested.print(Tree.DFS);
+        tested.print(Tree.BFS);
     }
 
 }
